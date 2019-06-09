@@ -3,33 +3,45 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/menu_add"
-        android:title="add">
+        android:title="Добавить">
     </item>
     <item
         android:id="@+id/menu_edit"
-        android:title="edit">
+        android:title="Изминить">
     </item>
     <item
         android:id="@+id/menu_delete"
         android:orderInCategory="3"
-        android:title="delete">
+        android:title="Удалить">
     </item>
     <group
         android:id="@+id/group1">
         <item
             android:id="@+id/menu_copy"
             android:orderInCategory="1"
-            android:title="copy">
+            android:title="Скопировать">
         </item>
         <item
             android:id="@+id/menu_paste"
             android:orderInCategory="2"
-            android:title="paste">
+            android:title="Вставить">
         </item>
         <item
             android:id="@+id/menu_exit"
             android:orderInCategory="4"
-            android:title="exit">
+            android:title="Выход из меню">
+        </item>
+
+        <item
+            android:id="@+id/example"
+            android:orderInCategory="7"
+            android:title="Пример">
+        </item>
+
+        <item
+            android:id="@+id/truly_exit"
+            android:orderInCategory="6"
+            android:title="Exit из программы">
         </item>
     </group>
 </menu>
